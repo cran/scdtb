@@ -1,6 +1,6 @@
 Package: scdtb
 Title: Single Case Design Tools
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: c(
     person("Mackson", "Ncube", , "macksonncube.stats@gmail.com", role = c("aut", "cre")),
     person("mightymetrika, LLC", role = c("cph", "fnd"))
@@ -22,18 +22,19 @@ Description: In some situations where researchers would like to demonstrate
     'scdtb' tools for plotting and analysis.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 URL: https://github.com/mightymetrika/scdtb
 BugReports: https://github.com/mightymetrika/scdtb/issues
 Depends: R (>= 2.10)
 LazyData: true
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
-Imports: broom.mixed, DT, ggplot2, mmcards, nlme, shiny, shinythemes
+Imports: broom.mixed, DT, ggplot2, MASS, mmcards, mmints, nlme, shiny,
+        shinythemes, sn
 NeedsCompilation: no
-Packaged: 2024-04-28 16:11:06 UTC; Administrator
+Packaged: 2024-09-20 15:19:12 UTC; Administrator
 Author: Mackson Ncube [aut, cre],
   mightymetrika, LLC [cph, fnd]
 Maintainer: Mackson Ncube <macksonncube.stats@gmail.com>
 Repository: CRAN
-Date/Publication: 2024-04-30 08:50:02 UTC
+Date/Publication: 2024-09-20 16:30:02 UTC
